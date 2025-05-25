@@ -1,10 +1,10 @@
 # 用到的库
-- 1. trl 库
+- 1. trl 库   
 trl（Transformers Reinforcement Learning）是 Hugging Face 推出的一个用于大模型微调（如 SFT、RLHF 等）的库，专门支持大语言模型的有监督微调（Supervised Fine-Tuning, SFT）和强化学习微调（Reinforcement Learning from Human Feedback, RLHF）。
-- 2. SFTConfig
+- 2. SFTConfig   
 SFTConfig 是一个配置类，用于定义有监督微调（SFT）训练的各种参数，比如 batch size、学习率、训练轮数、保存策略等。
 你可以把它理解为训练的“参数说明书”。
-- 3. SFTTrainer
+- 3. SFTTrainer   
 SFTTrainer 是一个训练器类，封装了 Hugging Face Transformers 的训练流程，专门用于 SFT 任务。
 它可以自动处理训练、评估、保存模型、日志记录等流程，让你更方便地对大模型进行有监督微调。
 
