@@ -59,3 +59,12 @@ typings/
 
 # dotenv environment variables file
 .env
+
+
+# Happy-LLM data and models
+happy-llm/data
+happy-llm/model
+happy-llm/*.pth
+happy-llm/checkpoints
+happy-llm/my_model_output
+happy-llm/sft_model_215M_mps
