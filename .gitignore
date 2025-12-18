@@ -70,3 +70,6 @@ happy-llm/my_model_output
 happy-llm/sft_model_215M_mps
 
 mini_qwen/models/*
+mini_qwen/data/*
+mini_qwen/archive/*
+mini_qwen/wandb/*

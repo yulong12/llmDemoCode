@@ -7,8 +7,7 @@ import gc
 from langchain_core.vectorstores import VectorStore
 from smolagents import Tool
 from typing import List
-from langchain_core.vectorstores import VectorStore
-from smolagents import Tool
+
         
 class SemanticRetriever(Tool):
     """
